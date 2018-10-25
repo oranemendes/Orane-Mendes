@@ -1,0 +1,144 @@
+@font-face {
+	font-family: 'WalkwayBold';
+	src: url('walkway/Walkway Black.ttf');
+}
+
+*
+{
+	flex-direction: column;
+	font-family: 'WalkwayBold', 'tahoma', 'sans serif';
+	color: white;
+}
+
+body{
+	background-image: url("https://i.ytimg.com/vi/Fnii1X37sng/maxresdefault.jpg");
+	background-attachment: fixed;
+	cursor:url('cursor/normal.cur'), pointer;
+}
+
+#header{
+	max-width: 100%;
+	height: auto;
+}
+
+footer{
+	position: relative;
+	max-width: 100%;
+}
+
+nav{
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-left: 35px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+
+a:hover{
+	color: white;
+	cursor:url('cursor/Link.cur'), pointer;
+}
+
+a{
+	color: white;
+}
+
+#pokemon{
+	margin-left: 7%;
+}
+
+table
+{
+	border-collapse: collapse;
+	border-top: 30px;
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+td, th
+{
+	border: 1px solid cyan;
+}
+
+td img
+{
+	max-height: 150px;
+	max-width: 150px;
+}
+
+figure img, body > footer > figure > img {
+	max-width: 100%;
+}
+
+#pokedex{
+	position: relative;
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-top: 20%;
+}
+
+#accueil{
+	display: flex;
+	flex-direction: row;
+	border: 8px double white;
+	margin: 25px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+#txt{
+	text-align: justify;
+	font-size: 1.5rem;
+}
+
+iframe{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-self: center;
+	cursor: url('cursor/Link.cur'), pointer;
+}
+
+#imgpokemon{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+h1{
+	font-size: 2rem;
+	text-align: center;
+	text-decoration: underline overline;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: blue;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 12px 10px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#contact{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-right: 35px;
+	padding-bottom: 30px;
+}
+
+
